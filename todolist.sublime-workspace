@@ -1,0 +1,377 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"class",
+				"class=〔attribute〕"
+			],
+			[
+				"header",
+				"header\t<header>"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"form",
+				"form\t<form>"
+			],
+			[
+				"head",
+				"head\t<head>"
+			],
+			[
+				"html",
+				"html\thtml"
+			],
+			[
+				"styl",
+				"stylesheet"
+			],
+			[
+				"link",
+				"link\tTag"
+			],
+			[
+				"di",
+				"div\t<div>"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"base",
+				"baseline"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"bottom",
+				"text-bottom"
+			],
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"sty",
+				"style\t<style>"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"input",
+				"input\tTag"
+			],
+			[
+				"time",
+				"timeUTC〔variable〕"
+			],
+			[
+				"city",
+				"cityElement〔variable〕"
+			],
+			[
+				"op",
+				"option\t<option>"
+			],
+			[
+				"sele",
+				"select\tTag"
+			],
+			[
+				"set",
+				"setTimeout〔function〕"
+			],
+			[
+				"getDa",
+				"getDay〔function〕"
+			],
+			[
+				"geta",
+				"getDate〔function〕"
+			],
+			[
+				"div",
+				"div\tTag"
+			],
+			[
+				"getM",
+				"getMinutes〔function〕"
+			],
+			[
+				"get",
+				"getHours〔function〕"
+			],
+			[
+				"script",
+				"script\tTag"
+			],
+			[
+				"font-fa",
+				"font-family: 〔property〕"
+			],
+			[
+				"style",
+				"style\tTag"
+			],
+			[
+				"meta",
+				"meta\tTag"
+			],
+			[
+				"slide",
+				"sliderValue〔variable〕"
+			],
+			[
+				"getE",
+				"getElementById〔function〕"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"sc",
+				"script\t<script>"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/nore/Downloads/todolist-master/todolist.sublime-project",
+		"/Users/nore/Downloads/todolist-master/app.js",
+		"/Users/nore/Downloads/todolist-master/routes/index.js",
+		"/Users/nore/Desktop/ctf4sg2/22/style.css",
+		"/Users/nore/Documents/ja1yqn/css/stylesheet.css",
+		"/Users/nore/Documents/ja1yqn/index.html",
+		"/Users/nore/Documents/ja1yqn/ja1yqn.html",
+		"/Users/nore/Documents/MyVueApp/css/styles.css",
+		"/Users/nore/Documents/MyVueApp/js/main.js",
+		"/Users/nore/Documents/MyVueApp/index.html",
+		"/Users/nore/Documents/ja1yqn/stylesheet.css",
+		"/Users/nore/Desktop/jeiskinki/index.html",
+		"/Users/nore/Documents/ithero/web/index.html",
+		"/Users/nore/Documents/ithero/web/test.html",
+		"/Users/nore/Documents/react/react-like-button/package.json",
+		"/Users/nore/Documents/react/react-like-button/dist/index.html",
+		"/Users/nore/Documents/react/react-like-button/src/main.js",
+		"/Users/nore/Documents/react/react-like-button/webpack.config.js",
+		"/Users/nore/Documents/angular/test01.html",
+		"/Users/nore/Documents/angular/myscript.js",
+		"/Users/nore/Documents/html/clock.html",
+		"/Users/nore/Documents/html/sample.html",
+		"/Users/nore/Downloads/CRings02.svg",
+		"/Users/nore/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "todolist.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Downloads/todolist-master/todolist.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
