@@ -6,7 +6,7 @@ function main() {
 	const id = queryParam.slice(4); // "?id=" wosakujo
 	$.ajax({
 		type: 'GET',
-		url: '/todos/' + id,
+		url: 'todos/' + id,
 	}).done((response) => {
 		console.log(response);
 		$('.titleInput').val(response.title);
