@@ -29,13 +29,13 @@ app.use('/detail', detail);
 
 let tasks = [
       {
-        id: '1', title: 'タイトル', content: '内容', status:'0', date:'2018-08-21 10:51'
+        id: '1', title: 'タイトル', content: '内容', status:'0', date:'2018-08-22'
       },
       {
-        id: '2', title: 'タイトル2', content: '内容2', status:'1', date:'2018-08-21 13:51'
+        id: '2', title: 'タイトル2', content: '内容2', status:'1', date:'2018-08-29'
       },
       {
-        id: '3', title: 'タイトル3', content: '内容3', status:'0', date:'2018-08-21 17:51'
+        id: '3', title: 'タイトル3', content: '内容3', status:'0', date:'2018-09-21'
       }
 ];
 
@@ -51,8 +51,6 @@ app.get('/todos', function(req, res, next) {
 // POST todos/
 // todoをつくる
 app.post('/todos', function(req, res, next) {
-  //var param = {"値":"POSTメソッドのリクエストを受け付けました","bodyの値":req.body.card};
-  //console.log(req.body);
   const newTask = req.body;
   newTask.id = String(task_id_sequense);
   task_id_sequense++;
@@ -60,7 +58,6 @@ app.post('/todos', function(req, res, next) {
   tasks.push(newTask);
   res.header('Content-Type', 'application/json; charset=utf-8');
   res.json(newTask);
-  //res.send(param);
 });
 
 // GET todos/:id
@@ -69,9 +66,11 @@ app.get('/todos/:id', function (req, res, next) {
   const id = req.params.id;
   let param; 
   for(i = 0; i < tasks.length; ++i) {
+    if(tasks[i]!=null){
       if(tasks[i].id === id){
           param = tasks[i];
       }
+    }
   }
   
   res.header('Content-Type', 'application/json; charset=utf-8')  // 「レスポンスはJSON形式で返すよ」の意味
@@ -81,13 +80,31 @@ app.get('/todos/:id', function (req, res, next) {
 // PUT todos/:id
 // 編集
 app.put('/todos/:id', function(req, res, next) {
-  var param = {"値":"編集します"};
+  const id = req.params.id;
+  let param; 
+  for(i = 0; i < tasks.length; ++i) {
+    if(tasks[i]!=null){
+      if(tasks[i].id === id){
+          param = tasks[i];
+          tasks[i]=req.body;
+      }
+    }
+  }
+  param= req.body;
   res.header('Content-Type', 'application/json; charset=utf-8')
   res.send(param);
 });
 // DELETE todos/:id
 // 削除
 app.delete('/todos/:id', function(req, res, next) {
+  const id = req.params.id;
+  for(i = 0; i < tasks.length; ++i) {
+    if(tasks[i]!=null){
+      if(tasks[i].id === id){
+          delete tasks[i];
+      }
+    }
+  }
   var param = {"値":"削除しました"};
   res.header('Content-Type', 'application/json; charset=utf-8')
   res.send(param);

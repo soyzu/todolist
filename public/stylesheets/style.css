@@ -6,3 +6,26 @@ body {
 a {
   color: #00B7FF;
 }
+
+.todoElement{
+  background-color:pink;
+  padding:10px;
+}
+
+button{
+	margin: 0 10px 10px 0;
+	height:30px;
+	width: 70px;
+}
+
+label{
+	display: block;
+}
+
+input{
+	display: block;
+}
+
+textarea{
+	display: block;
+}

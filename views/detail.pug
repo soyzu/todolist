@@ -3,10 +3,18 @@ extends layout
 block content
     h1= title
     p Welcome to #{title}
-    div#inputPart
+    v#inputPart
+        label
+          | タイトル:
         input.titleInput(type="text" name="title" placeholder="タイトルを入力" size="30" maxlength="20")
+        label
+          | 詳細説明:
         textarea.contentInput(rows="10" cols="60" placeholder="内容を入力")
+        label
+          | 期日:
+        input#datepicker(type="text" placeholder="クリックして日付を入力")
     div#submitPart
+        button.back back
         button.update update
         button.delete delete
     script(src='/js/detail.js')
